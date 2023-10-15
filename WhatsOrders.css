@@ -1,0 +1,146 @@
+:root {
+--wotheme:#23D160;
+}
+.button.is-success,  .button.is-success:hover,  .button.is-success:active,  .button.is-success:visited {
+background-color: var(--wotheme) !important;
+}
+/*.is-two-thirds {padding: .75rem .15rem;}*/
+.section{
+ padding:2rem 1.5rem;
+}
+.box{
+border:1px solid #dfe1e5;
+border-radius:8px;
+box-shadow:none;
+padding:1.2rem;
+}
+.woitemimage {
+background-repeat: no-repeat;
+background-position:5px; 
+background-size:60px auto;
+padding-left:70px;
+}
+.demonote{
+min-width:300px;
+margin-left:-150px;
+position:fixed;
+z-index:11;
+left:50%;
+top:100px;}
+#worefresh{
+min-width:150px;
+margin-left:-75px;
+position:fixed;
+z-index:1;left:50%;
+bottom:70px;
+}
+.wopicdelradio{
+position:absolute;
+visibility:hidden;
+display:none;
+}
+.rlabel{
+color:#d4d4d4;
+display:inline-block;
+cursor:pointer;
+font-weight:700;
+padding:5px 15px;
+}
+input[type=radio]:checked+label{
+color:#fff;
+background:var(--wotheme);
+}
+label+input[type=radio]+label{
+border-left:solid 2px var(--wotheme);
+}
+.radio-group{
+border:solid 2px var(--wotheme);
+display:inline-block;
+margin:20px 0px;
+border-radius:10px;
+overflow:hidden;
+}
+input::-webkit-inner-spin-button,input::-webkit-outer-spin-button{
+-webkit-appearance:none;
+margin:0;
+}
+input[type=number]{
+-moz-appearance:textfield;
+}
+.wohide {
+position: absolute !important;
+top: -9999px !important;
+left: -9999px !important;
+}
+.noshow {
+display: none;
+}
+
+.SOpen{
+    background-color: #23d160 !important;
+}
+
+.SClose{
+    background-color: #d12323 !important;
+    
+}
+.CategoryIcon {
+    height: 28px;
+    width:28px;
+}
+
+.liCategoryIcon {
+display: flex !important;
+flex-direction: column;
+align-items: center;
+padding: 0.2em 0.8em 0em 0.8em !important;
+}
+
+.liCategoryIcon a{
+    padding: 0.1em 0.1em !important;
+}
+
+.divCategory{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 1.5rem;                        
+}
+.CategoryIcon1 {
+    height: 36px;
+    width:36px;
+}
+.SelClass{
+width: 100px;
+font-size: 14px;
+color: white;
+outline: none;
+background-color: var(--wotheme);
+height: 25px;
+margin-left: 1%;
+border: none;
+text-align: center;
+border-radius: 25px;
+font-weight: 500;
+}
+
+.mydiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.SelClass option{
+    font-size: large;
+}
+
+.showimg{
+    height: 200px;
+    width: 200px;
+}
+.hidediv{
+    min-width: 64px;
+    min-height: 64px;
+    position: absolute;
+    left: 8px;
+}
